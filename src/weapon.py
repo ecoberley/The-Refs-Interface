@@ -12,7 +12,6 @@ class Weapon:
     cost = ""
 
     def __init__(self, row):
-        self.desc = ""
         self.name = str(row[0])
         self.type = str(row[1])
         self.accuracy = str(row[2])
