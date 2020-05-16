@@ -1,0 +1,203 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+.gitignore
+src/__pycache__/
+src/~$weapons_list.xlsx
+venv/Include/
+venv/Lib/site-packages/__pycache__/
+venv/Lib/site-packages/pip/__pycache__/
+venv/Lib/site-packages/pip/_internal/__pycache__/
+venv/Lib/site-packages/pip/_internal/cli/__pycache__/
+venv/Lib/site-packages/pip/_internal/commands/__pycache__/
+venv/Lib/site-packages/pip/_internal/distributions/__pycache__/
+venv/Lib/site-packages/pip/_internal/index/__pycache__/
+venv/Lib/site-packages/pip/_internal/models/__pycache__/
+venv/Lib/site-packages/pip/_internal/network/__pycache__/
+venv/Lib/site-packages/pip/_internal/operations/__pycache__/
+venv/Lib/site-packages/pip/_internal/operations/build/__pycache__/
+venv/Lib/site-packages/pip/_internal/operations/install/__pycache__/
+venv/Lib/site-packages/pip/_internal/req/__pycache__/
+venv/Lib/site-packages/pip/_internal/resolution/__pycache__/
+venv/Lib/site-packages/pip/_internal/resolution/legacy/__pycache__/
+venv/Lib/site-packages/pip/_internal/resolution/resolvelib/__pycache__/
+venv/Lib/site-packages/pip/_internal/utils/__pycache__/
+venv/Lib/site-packages/pip/_internal/vcs/__pycache__/
+venv/Lib/site-packages/pip/_vendor/__pycache__/
+venv/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__/
+venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__pycache__/
+venv/Lib/site-packages/pip/_vendor/certifi/__pycache__/
+venv/Lib/site-packages/pip/_vendor/chardet/__pycache__/
+venv/Lib/site-packages/pip/_vendor/chardet/cli/__pycache__/
+venv/Lib/site-packages/pip/_vendor/colorama/__pycache__/
+venv/Lib/site-packages/pip/_vendor/distlib/__pycache__/
+venv/Lib/site-packages/pip/_vendor/distlib/_backport/__pycache__/
+venv/Lib/site-packages/pip/_vendor/html5lib/__pycache__/
+venv/Lib/site-packages/pip/_vendor/html5lib/_trie/__pycache__/
+venv/Lib/site-packages/pip/_vendor/html5lib/filters/__pycache__/
+venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/__pycache__/
+venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/__pycache__/
+venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/__pycache__/
+venv/Lib/site-packages/pip/_vendor/idna/__pycache__/
+venv/Lib/site-packages/pip/_vendor/msgpack/__pycache__/
+venv/Lib/site-packages/pip/_vendor/packaging/__pycache__/
+venv/Lib/site-packages/pip/_vendor/pep517/__pycache__/
+venv/Lib/site-packages/pip/_vendor/pkg_resources/__pycache__/
+venv/Lib/site-packages/pip/_vendor/progress/__pycache__/
+venv/Lib/site-packages/pip/_vendor/requests/__pycache__/
+venv/Lib/site-packages/pip/_vendor/resolvelib/__pycache__/
+venv/Lib/site-packages/pip/_vendor/toml/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/contrib/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/packages/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__pycache__/
+venv/Lib/site-packages/pip/_vendor/urllib3/util/__pycache__/
+venv/Lib/site-packages/pip/_vendor/webencodings/__pycache__/
+venv/Lib/site-packages/pkg_resources/__pycache__/
+venv/Lib/site-packages/pkg_resources/_vendor/__pycache__/
+venv/Lib/site-packages/pkg_resources/_vendor/packaging/__pycache__/
+venv/Lib/site-packages/pkg_resources/extern/__pycache__/
+venv/Lib/site-packages/setuptools/__pycache__/
+venv/Lib/site-packages/setuptools/command/__pycache__/
+venv/Lib/site-packages/setuptools/extern/__pycache__/
