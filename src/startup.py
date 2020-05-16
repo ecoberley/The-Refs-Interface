@@ -15,6 +15,6 @@ IMI_logo = "*************************************************\n" \
            "*   This system  is for the use of authorized   *\n" \
            "*  users only. Usage of this interface will be  *\n" \
            "*            monitored and recorded             *\n" \
-           "*************************************************" \
+           "*************************************************\n" \
 
-print(IMI_logo + "\n")
+print(IMI_logo)
