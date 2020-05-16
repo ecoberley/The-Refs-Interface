@@ -1,8 +1,8 @@
 # The Referee's Interface
 
 ## How to download
-Click **clone or download** in the top-right hand corner and download as ZIP. 
-The only files you technically need are in the RefsInterface folder (this includes the spreadsheet for the weapons list, so you can add weapons to it if you'd like).
+Click **clone or download** in the top-right hand corner and download as ZIP. **Extract** the ZIP anywhere you'd like.
+The only files you technically need are in the RefsInterface folder (this includes the spreadsheets for the weapons and cybernetics lists, so you can add weapons to it if you'd like).
 However, I've included the source code if you're familiar with Python and would
 like to change anything and compile your own executable.
 
@@ -32,8 +32,14 @@ In addition, the search returns a result if the keyword is present *anywhere* in
 weapons description. If you say search_weapons 60 to find a range of 60, you will
 get back weapons that have a range of 60, but also a price of 60 or 600.
 
+**search_cybernetics x**
+Like search_weapons, but with cybernetics. List taken from https://silcyberclassic.neocities.org/silcyber.htm. Doesn't include cybernetics from sourcebooks outside of the Player's Handbook, but entries can be added in the cybernetics_list.xlsx spreadsheet.
+
 **weapon_desc_format**
 Outputs the standard format that Cyberpunk weapons are written in.
+
+**cybernetic_desc_format**
+Outputs the standard format that Cyberpunk cybernetics are written in.
 
 **roll xdx**
 Input the number of a specific type of dice, i.e. roll 2d10.
