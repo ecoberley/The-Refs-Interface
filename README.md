@@ -26,7 +26,7 @@ After startup is finished, you'll be shown a command prompt. These are the avail
 Input the range of the weapon and the distance from the target, i.e. to_hit 300 150
 
 **search_weapons x**
-Input the keyword you'd like to be searched, i.e. search_weapons arasaka
+Input the keyword you'd like to be searched, i.e. search_weapons arasaka.
 The weapons list includes any and all weapons found on the Cyberpunk 2020 wiki.
 In addition, the search returns a result if the keyword is present *anywhere* in the
 weapons description. If you say search_weapons 60 to find a range of 60, you will
@@ -36,7 +36,7 @@ get back weapons that have a range of 60, but also a price of 60 or 600.
 Outputs the standard format that Cyberpunk weapons are written in.
 
 **roll xdx**
-Input the number of a specific type of dice, i.e. roll 2d10
+Input the number of a specific type of dice, i.e. roll 2d10.
 If you're rolling 1dx, you can omit the number of dice, i.e. roll d6
 
 For questions, comments, or suggestions, email me at ecoberley@outlook.com
