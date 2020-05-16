@@ -6,5 +6,7 @@ cmd_dict = {
     # the weapon range and distance from the target
     "to_hit": to_hit,
     "search_weapons": search_weapons,
-    "weapon_desc_format": weapon_desc_format
+    "weapon_desc_format": weapon_desc_format,
+    "roll": roll
+
 }

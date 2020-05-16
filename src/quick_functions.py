@@ -1,3 +1,5 @@
+from random import *
+
 
 def to_hit(args):
     weapon_range = float(args[1])
@@ -13,6 +15,18 @@ def to_hit(args):
         return "Long, 25 to hit"
     else:
         return "Extreme, 30 to hit"
+
+
+def roll(args):
+    try:
+        num_dice = int(args[1].split("d")[0])
+    except ValueError:
+        num_dice = 1
+    dice_type = int(args[1].split("d")[1])
+    dice_roll = 0
+    for i in range(num_dice):
+        dice_roll += randint(1, dice_type)
+    return str(dice_roll)
 
 
 print("Imported quick_functions...")
