@@ -9,6 +9,7 @@ cmd_dict = {
     "search_weapons": search_weapons,
     "weapon_desc_format": weapon_desc_format,
     "search_cybernetics": search_cybernetics,
+    "cybernetic_desc_format": cybernetic_desc_format,
     "roll": roll
 
 }
