@@ -1,7 +1,7 @@
 # The Referee's Interface
 
 ## How to download
-Click **clone or download** in the top-right hand corner and download as ZIP. 
+Click **clone or download** in the top-right hand corner and download as ZIP. **Extract** the ZIP anywhere you'd like.
 The only files you technically need are in the RefsInterface folder (this includes the spreadsheets for the weapons and cybernetics lists, so you can add weapons to it if you'd like).
 However, I've included the source code if you're familiar with Python and would
 like to change anything and compile your own executable.
