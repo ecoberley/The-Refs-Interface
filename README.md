@@ -2,7 +2,7 @@
 
 ## How to download
 Click **clone or download** in the top-right hand corner and download as ZIP. 
-The only files you technically need are in the RefsInterfaceVx.x folder.
+The only files you technically need are in the RefsInterface folder (this includes the spreadsheet for the weapons list, so you can add weapons to it if you'd like).
 However, I've included the source code if you're familiar with Python and would
 like to change anything and compile your own executable.
 
@@ -39,5 +39,4 @@ Outputs the standard format that Cyberpunk weapons are written in.
 Input the number of a specific type of dice, i.e. roll 2d10.
 If you're rolling 1dx, you can omit the number of dice, i.e. roll d6
 
-For questions, comments, or suggestions, email me at ecoberley@outlook.com
-or PM me on Reddit at r/ConfusedGeniusRed
+**For questions, comments, or suggestions, email me at ecoberley@outlook.com or PM me on Reddit at r/ConfusedGeniusRed**
