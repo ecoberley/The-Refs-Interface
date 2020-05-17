@@ -1,0 +1,1 @@
+pyinstaller -F -i "IMI_icon.ico" interface.py
