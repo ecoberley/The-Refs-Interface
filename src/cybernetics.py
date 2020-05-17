@@ -1,5 +1,5 @@
 import xlrd
-from src.cybernetic import *
+from cybernetic import *
 
 filename = "search_lists.xlsx"
 cybernetics_spreadsheet = xlrd.open_workbook(filename).sheet_by_index(1)

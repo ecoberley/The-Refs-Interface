@@ -1,7 +1,6 @@
-from src.commands import cmd_dict
-from src.startup import *
-from src.colors import *
-from src.help import *
+from startup import *
+from commands import *
+from colors import *
 
 
 cmd = ""
@@ -13,6 +12,6 @@ while cmd.lower() != "exit":
             break
         print(cmd_dict[cmd](args))
     except KeyError:
-        print(bcolors.FAIL + "INVALID COMMAND" + bcolors.GREEN)
+        print("INVALID COMMAND")
     except IndexError:
-        print(bcolors.FAIL + "INVALID ARGS" + bcolors.GREEN)
+        print("INVALID ARGS")

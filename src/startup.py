@@ -1,14 +1,9 @@
 from random import uniform
 from time import sleep
-from src.colors import *
-# from subprocess import Popen
+from subprocess import Popen
 
-# p = Popen("start.bat", cwd=r"D:\Python\The-Refs-Interface-master\src")
 
-# stdout, stderr = p.communicate()
-
-IMI_logo = bcolors.GREEN + \
-           "*************************************************\n" \
+IMI_logo = "*************************************************\n" \
            "****** WELCOME TO THE REFEREE'S INTERFACE© ******\n" \
            "************ BROUGHT TO YOU BY IMI™ *************\n" \
            "*************************************************\n" \

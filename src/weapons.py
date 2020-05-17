@@ -1,5 +1,5 @@
 import xlrd
-from src.weapon import *
+from weapon import *
 
 filename = "search_lists.xlsx"
 weapons_spreadsheet = xlrd.open_workbook(filename).sheet_by_index(0)

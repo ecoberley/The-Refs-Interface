@@ -141,6 +141,7 @@ dmypy.json
 cython_debug/
 
 .gitignore
+/.idea
 src/__pycache__/
 src/~$weapons_list.xlsx
 venv/Include/
