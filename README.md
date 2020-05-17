@@ -22,10 +22,10 @@ on any of the logos and IPs shown in the program.
 ## How to use
 After startup is finished, you'll be shown a command prompt. These are the available commands.
 
-**to_hit <weapon_range> <distance_from>**
+**to_hit [weapon_range] [distance_from]**
 Input the range of the weapon and the distance from the target, i.e. to_hit 300 150
 
-**search_weapons <<keyword>>**
+**search_weapons [keyword]**
 Input the keyword you'd like to be searched, i.e. search_weapons arasaka.
 The weapons list includes any and all weapons found on the Cyberpunk 2020 wiki.
 In addition, the search returns a result if the keyword is present *anywhere* in the
