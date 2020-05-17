@@ -1,4 +1,5 @@
-from random import *
+from random import randint
+from colors import *
 
 
 def to_hit(args):
@@ -22,8 +23,13 @@ def roll(args):
         num_dice = int(args[1].split("d")[0])
     except ValueError:
         num_dice = 1
-    dice_type = int(args[1].split("d")[1])
-    dice_roll = 0
+
+    try:
+        dice_type = int(args[1].split("d")[1])
+        dice_roll = 0
+    except ValueError:
+        return bcolors.FAIL + "INVALID ARGS" + bcolors.GREEN
+
     for i in range(num_dice):
         dice_roll += randint(1, dice_type)
     return str(dice_roll)
