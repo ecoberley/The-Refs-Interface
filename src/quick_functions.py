@@ -1,5 +1,4 @@
 from random import randint
-from colors import *
 
 
 def to_hit(args):
@@ -35,4 +34,22 @@ def roll(args):
     return str(dice_roll)
 
 
+def help_function(args):
+    cmd_arr = ["to_hit", "search_weapons", "weapon_desc_format", "search_cybernetics", "cybernetics_desc_format",
+               "roll"]
+    help_dict = {
+        "to_hit": "Determines amount needed to hit.\n" + "to_hit [weapon range] [target distance]",
+        "search_weapons": "Searches through the weapon index.\n" + "search_weapons [search terms]",
+        "weapon_desc_format": "Displays weapon format.",
+        "search_cybernetics": "Searches through the cybernetics index.\n" + "search_cybernetics [search terms]",
+        "cybernetics_desc_format": "Displays cybernetics format.",
+        "roll": "Rolls dice.\n" + "roll [number of dice]d[number of sides]"
+    }
+    try:
+        return help_dict[args[1]]
+    except IndexError:
+        return '\n'.join(cmd_arr)
+
+
 print("Imported quick_functions...")
+print("Imported help...")

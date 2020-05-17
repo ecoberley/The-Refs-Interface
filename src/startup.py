@@ -2,9 +2,6 @@ from random import uniform
 from time import sleep
 from subprocess import Popen
 
-p = Popen("start.bat", cwd=r"D:\Python\The-Refs-Interface-master\src")
-
-stdout, stderr = p.communicate()
 
 IMI_logo = "*************************************************\n" \
            "****** WELCOME TO THE REFEREE'S INTERFACE© ******\n" \

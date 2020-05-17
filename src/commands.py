@@ -1,7 +1,6 @@
-from src.quick_functions import *
-from src.weapons import *
-from src.cybernetics import *
-from src.help import *
+from quick_functions import *
+from weapons import *
+from cybernetics import *
 
 cmd_dict = {
     # Finds the hit difficulty of a given shot from
