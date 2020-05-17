@@ -1,5 +1,5 @@
 from random import randint
-from colors import *
+from src.colors import *
 
 
 def to_hit(args):

@@ -26,4 +26,3 @@ def help_function(args):
     elif args[1] == cmd_arr[5]:
         return "Rolls dice.\n" \
                 "roll d[number of sides]"
-
