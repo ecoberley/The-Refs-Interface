@@ -15,3 +15,5 @@ while cmd.lower() != "exit":
         print("INVALID COMMAND")
     except IndexError:
         print("INVALID ARGS")
+
+# TODO Compile V1.1.04
