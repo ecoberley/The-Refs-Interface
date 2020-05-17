@@ -32,7 +32,7 @@ In addition, the search returns a result if the keyword is present *anywhere* in
 weapons description. If you say search_weapons 60 to find a range of 60, you will
 get back weapons that have a range of 60, but also a price of 60 or 600.
 
-**search_cybernetics <keyword>**
+**search_cybernetics [keyword]**
 Like search_weapons, but with cybernetics. List taken from https://silcyberclassic.neocities.org/silcyber.htm. Doesn't include cybernetics from sourcebooks outside of the Player's Handbook, but entries can be added in the cybernetics_list.xlsx spreadsheet.
 
 **weapon_desc_format**
@@ -41,11 +41,11 @@ Outputs the standard format that Cyberpunk weapons are written in.
 **cybernetic_desc_format**
 Outputs the standard format that Cyberpunk cybernetics are written in.
 
-**roll <num_dice>d<num_sides**
+**roll [num_dice]d[num_sides]**
 Input the number of a specific type of dice, i.e. roll 2d10.
 If you're rolling 1dx, you can omit the number of dice, i.e. roll d6.
 
-**help <cmd>**
+**help [cmd]**
 Input the command you'd like help with, i.e. help to_hit.
   
 **help**
