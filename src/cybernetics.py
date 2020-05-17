@@ -1,8 +1,8 @@
 import xlrd
 from src.cybernetic import *
 
-filename = "cybernetics_list.xlsx"
-cybernetics_spreadsheet = xlrd.open_workbook(filename).sheet_by_index(0)
+filename = "search_lists.xlsx"
+cybernetics_spreadsheet = xlrd.open_workbook(filename).sheet_by_index(1)
 
 cybernetics = []
 for i in range(1, cybernetics_spreadsheet.nrows):
