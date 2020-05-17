@@ -14,4 +14,3 @@ while cmd.lower() != "exit":
     except IndexError:
         print("INVALID ARGS")
 
-
