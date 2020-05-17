@@ -1,3 +1,10 @@
+from random import uniform
+from time import sleep
+from subprocess import Popen
+
+p = Popen("start.bat", cwd=r"D:\Python\The-Refs-Interface-master\src")
+
+stdout, stderr = p.communicate()
 
 IMI_logo = "*************************************************\n" \
            "****** WELCOME TO THE REFEREE'S INTERFACE© ******\n" \
@@ -17,4 +24,8 @@ IMI_logo = "*************************************************\n" \
            "*            monitored and recorded             *\n" \
            "*************************************************\n" \
 
-print(IMI_logo)
+IMI_logo_split = IMI_logo.split("\n")
+
+for i in IMI_logo_split:
+    sleep(uniform(0.2, 0.29))
+    print(i)
