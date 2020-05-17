@@ -13,7 +13,7 @@ print("Imported cybernetics_list...")
 
 def search_cybernetics(args):
     results = cybernetic_desc_format(0)
-    query = args[1].lower()
+    query = ' '.join(args[1:]).lower()
     for idx in range(0, len(cybernetics)):
         if cybernetics[idx].to_string().lower().__contains__(query):
             if idx != len(cybernetics) - 1:
