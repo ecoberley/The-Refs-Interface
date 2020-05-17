@@ -12,6 +12,6 @@ while cmd.lower() != "exit":
             break
         print(cmd_dict[cmd](args))
     except KeyError:
-        print("INVALID COMMAND")
+        print(bcolors.FAIL + "INVALID COMMAND" + bcolors.GREEN)
     except IndexError:
-        print("INVALID ARGS")
+        print(bcolors.FAIL + "INVALID ARGS" + bcolors.GREEN)

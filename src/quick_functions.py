@@ -1,4 +1,5 @@
 from random import randint
+from colors import *
 
 
 def to_hit(args):
@@ -24,6 +25,7 @@ def roll(args):
         num_dice = 1
 
     try:
+
         dice_type = int(args[1].split("d")[1])
         dice_roll = 0
     except ValueError:

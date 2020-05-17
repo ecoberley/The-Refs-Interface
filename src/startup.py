@@ -1,9 +1,10 @@
 from random import uniform
 from time import sleep
-from subprocess import Popen
+from colors import *
 
 
-IMI_logo = "*************************************************\n" \
+IMI_logo = bcolors.GREEN + \
+           "*************************************************\n" \
            "****** WELCOME TO THE REFEREE'S INTERFACE© ******\n" \
            "************ BROUGHT TO YOU BY IMI™ *************\n" \
            "*************************************************\n" \
