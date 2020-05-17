@@ -25,14 +25,14 @@ After startup is finished, you'll be shown a command prompt. These are the avail
 **to_hit <weapon_range> <distance_from>**
 Input the range of the weapon and the distance from the target, i.e. to_hit 300 150
 
-**search_weapons x**
+**search_weapons <keyword>**
 Input the keyword you'd like to be searched, i.e. search_weapons arasaka.
 The weapons list includes any and all weapons found on the Cyberpunk 2020 wiki.
 In addition, the search returns a result if the keyword is present *anywhere* in the
 weapons description. If you say search_weapons 60 to find a range of 60, you will
 get back weapons that have a range of 60, but also a price of 60 or 600.
 
-**search_cybernetics x**
+**search_cybernetics <keyword>**
 Like search_weapons, but with cybernetics. List taken from https://silcyberclassic.neocities.org/silcyber.htm. Doesn't include cybernetics from sourcebooks outside of the Player's Handbook, but entries can be added in the cybernetics_list.xlsx spreadsheet.
 
 **weapon_desc_format**
@@ -41,10 +41,14 @@ Outputs the standard format that Cyberpunk weapons are written in.
 **cybernetic_desc_format**
 Outputs the standard format that Cyberpunk cybernetics are written in.
 
-**roll xdx**
+**roll <num_dice>d<num_sides**
 Input the number of a specific type of dice, i.e. roll 2d10.
-If you're rolling 1dx, you can omit the number of dice, i.e. roll d6
+If you're rolling 1dx, you can omit the number of dice, i.e. roll d6.
 
-**help **
+**help <cmd>**
+Input the command you'd like help with, i.e. help to_hit.
+  
+**help**
+Outputs a list of useable commands.
 
 **For questions, comments, or suggestions, email me at ecoberley@outlook.com or PM me on Reddit at r/ConfusedGeniusRed**
