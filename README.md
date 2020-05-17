@@ -22,7 +22,7 @@ on any of the logos and IPs shown in the program.
 ## How to use
 After startup is finished, you'll be shown a command prompt. These are the available commands.
 
-**to_hit x y**
+**to_hit <weapon_range> <distance_from>**
 Input the range of the weapon and the distance from the target, i.e. to_hit 300 150
 
 **search_weapons x**
@@ -44,5 +44,7 @@ Outputs the standard format that Cyberpunk cybernetics are written in.
 **roll xdx**
 Input the number of a specific type of dice, i.e. roll 2d10.
 If you're rolling 1dx, you can omit the number of dice, i.e. roll d6
+
+**help **
 
 **For questions, comments, or suggestions, email me at ecoberley@outlook.com or PM me on Reddit at r/ConfusedGeniusRed**
