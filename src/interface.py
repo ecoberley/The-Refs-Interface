@@ -5,7 +5,7 @@ from startup import *
 init()
 IMI_logo_split = IMI_logo.split("\n")
 for i in IMI_logo_split:
-    sleep(uniform(0.2, 0.29))
+    sleep(uniform(0.05, 0.29))
     print(Fore.LIGHTRED_EX + i)
 from commands import *
 

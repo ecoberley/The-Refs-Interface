@@ -1,6 +1,7 @@
 from quick_functions import *
 from weapons import *
 from cybernetics import *
+from char_generator import *
 
 cmd_dict = {
     # Finds the hit difficulty of a given shot from
@@ -11,6 +12,7 @@ cmd_dict = {
     "search_cybernetics": search_cybernetics,
     "cybernetic_desc_format": cybernetic_desc_format,
     "roll": roll,
-    "help": help_function
+    "help": help_function,
+    "generate_char": generate_char
 
 }
