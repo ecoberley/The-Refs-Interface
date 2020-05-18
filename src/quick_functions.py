@@ -39,7 +39,7 @@ def roll(args):
 
 def help_function(args):
     cmd_arr = ["to_hit", "search_weapons", "weapon_desc_format", "search_cybernetics", "cybernetics_desc_format",
-               "roll", "generate_char"]
+               "roll"]
     help_dict = {
         "to_hit": "Calculates hit difficulty.\n" + "to_hit [weapon_range] [target_distance]",
         "search_weapons": "Searches through the weapon index.\n" + "search_weapons [keyword]",
@@ -47,7 +47,6 @@ def help_function(args):
         "search_cybernetics": "Searches through the cybernetics index.\n" + "search_cybernetics [keyword]",
         "cybernetics_desc_format": "Displays cybernetics format.",
         "roll": "Rolls dice.\n" + "roll [number of dice]d[number of sides]",
-        "generate_char": "Randomly generates a character."
     }
     try:
         return help_dict[args[1]]

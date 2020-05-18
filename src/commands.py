@@ -13,6 +13,5 @@ cmd_dict = {
     "cybernetic_desc_format": cybernetic_desc_format,
     "roll": roll,
     "help": help_function,
-    "generate_char": generate_char
 
 }
