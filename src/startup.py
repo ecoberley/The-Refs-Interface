@@ -1,10 +1,5 @@
-from random import uniform
-from time import sleep
-from colors import *
 
-
-IMI_logo = bcolors.GREEN + \
-           "*************************************************\n" \
+IMI_logo = "*************************************************\n" \
            "****** WELCOME TO THE REFEREE'S INTERFACE© ******\n" \
            "************ BROUGHT TO YOU BY IMI™ *************\n" \
            "*************************************************\n" \
@@ -21,9 +16,3 @@ IMI_logo = bcolors.GREEN + \
            "*  users only. Usage of this interface will be  *\n" \
            "*            monitored and recorded             *\n" \
            "*************************************************\n" \
-
-IMI_logo_split = IMI_logo.split("\n")
-
-for i in IMI_logo_split:
-    sleep(uniform(0.2, 0.29))
-    print(i)

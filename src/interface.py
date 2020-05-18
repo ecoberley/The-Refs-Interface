@@ -1,6 +1,13 @@
+from colorama import *
+from random import uniform
+from time import sleep
 from startup import *
+init()
+IMI_logo_split = IMI_logo.split("\n")
+for i in IMI_logo_split:
+    sleep(uniform(0.2, 0.29))
+    print(Fore.LIGHTRED_EX + i)
 from commands import *
-from colors import *
 
 
 cmd = ""
@@ -12,6 +19,8 @@ while cmd.lower() != "exit":
             break
         print(cmd_dict[cmd](args))
     except KeyError:
-        print(bcolors.FAIL + "INVALID COMMAND" + bcolors.GREEN)
+        print(Fore.RED + "INVALID COMMAND" + Fore.LIGHTRED_EX)
     except IndexError:
-        print(bcolors.FAIL + "INVALID ARGS" + bcolors.GREEN)
+        print(Fore.RED + "INVALID ARGS" + Fore.LIGHTRED_EX)
+
+# TODO Compile V1.1.04
