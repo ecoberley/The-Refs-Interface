@@ -1,4 +1,5 @@
 from random import randint
+from colorama import *
 
 
 def to_hit(args):
@@ -26,9 +27,9 @@ def roll(args):
     try:
         dice_type = int(args[1].split("d")[1])
     except ValueError:
-        return "INVALID ARGS"
+        return Fore.RED + "INVALID ARGS" + Fore.LIGHTRED_EX
     if dice_type == 0:
-        return "INVALID ARGS"
+        return Fore.RED + "INVALID ARGS" + Fore.LIGHTRED_EX
 
     dice_roll = 0
     for i in range(num_dice):

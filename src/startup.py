@@ -1,7 +1,3 @@
-from random import uniform
-from time import sleep
-from subprocess import Popen
-
 
 IMI_logo = "*************************************************\n" \
            "****** WELCOME TO THE REFEREE'S INTERFACE© ******\n" \
@@ -20,9 +16,3 @@ IMI_logo = "*************************************************\n" \
            "*  users only. Usage of this interface will be  *\n" \
            "*            monitored and recorded             *\n" \
            "*************************************************\n" \
-
-IMI_logo_split = IMI_logo.split("\n")
-
-for i in IMI_logo_split:
-    sleep(uniform(0.2, 0.29))
-    print(i)
