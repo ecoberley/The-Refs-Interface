@@ -23,4 +23,3 @@ while cmd.lower() != "exit":
     except IndexError:
         print(Fore.RED + "INVALID ARGS" + Fore.LIGHTRED_EX)
 
-# TODO Compile V1.1.04
