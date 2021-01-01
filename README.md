@@ -1,5 +1,10 @@
 # The Referee's Interface
 
+## This project, in its current form, has been abandoned. 
+It wasn't implemented nearly as well as it could have been, and I used it mostly as a quick test of my knowledge of Python.
+As I learn more data structures and play around with SQL, I'm working on an updated, cleaner version of the project that will most likely be released under a different name. 
+However, I will leave the repo up for the time being, since some people have found the project useful ( and as a humbling reminder of how little I used to know about software development ).
+
 ## How to download
 Click **clone or download** in the top-right hand corner and download as ZIP. **Extract** the ZIP anywhere you'd like.
 The only files you technically need are in the RefsInterface folder, including the executable and the workbook for the weapons and cybernetics lists, so you can add entries to them if you'd like.
