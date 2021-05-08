@@ -56,4 +56,4 @@ Input the command you'd like help with, i.e. help to_hit.
 **help**
 Outputs a list of useable commands.
 
-**For questions, comments, or suggestions, email me at ecoberley@outlook.com or PM me on Reddit at r/ConfusedGeniusRed**
+**For questions, comments, or suggestions, email me at ecoberley@outlook.com**
