@@ -2,7 +2,7 @@
 
 ## This project, in its current form, has been abandoned. 
 It wasn't implemented nearly as well as it could have been, and I used it mostly as a quick test of my knowledge of Python.
-As I learn more data structures and play around with SQL, I'm working on an updated, cleaner version of the project that will most likely be released under a different name. 
+As I learn more data structures, I'm working on an updated, cleaner version of the project that will most likely be released under a different name. 
 However, I will leave the repo up for the time being, since some people have found the project useful ( and as a humbling reminder of how little I used to know about software development ).
 
 ## How to download
