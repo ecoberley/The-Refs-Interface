@@ -1,9 +1,7 @@
 # The Referee's Interface
 
-## This project, in its current form, has been abandoned. 
-It wasn't implemented nearly as well as it could have been, and I used it mostly as a quick test of my knowledge of Python.
-As I learn more about data structures, I'm working on an updated, cleaner version of the project that will most likely be released under a different name. 
-However, I will leave the repo up for the time being, since some people have found the project useful ( and as a humbling reminder of how little I used to know about software development ).
+## This project has been abandoned. 
+This implementation SUCKS! I'm embarrassed by it. But I've referenced it elsewhere and I hate dead links, so if you find it, marvel at my naivete.
 
 ## How to download
 Click **clone or download** in the top-right hand corner and download as ZIP. **Extract** the ZIP anywhere you'd like.
